@@ -5,22 +5,18 @@ import { Hero } from "./components/Hero";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
-import iconGithub from "./assets/images/icon-github.svg";
-import iconFrontendM from "./assets/images/icon-frontend-mentor.svg";
-import iconLinkedin from "./assets/images/icon-linkedin.svg";
-import iconTwitter from "./assets/images/icon-twitter.svg";
 function App() {
   return (
     <div className="App">
       <Nav />
       <Hero />
-      <hr />
+      <hr className="line first-line" />
       <Skills />
-      <hr />
+      <hr className="line" />
       <Projects />
       <section className="footer">
         <Contact />
-        <hr />
+        <hr className="line" />
         <Nav />
       </section>
     </div>
