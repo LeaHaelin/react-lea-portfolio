@@ -1,0 +1,59 @@
+.hero {
+    border: 1px solid palegreen;
+    text-align: center;
+}
+
+.hero__profile--bg {
+    margin: 0 auto;
+    width: 174px;
+    border: 1px solid paleturquoise;
+    background-color: $darkGrey;
+}
+
+.hero__profile {
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.hero__content {
+    border: 1px solid paleturquoise;
+    margin-top: 40px;
+}
+
+.hero__intro {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+    color: $white;
+}
+
+.hero__intro--name {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: $green;
+}
+
+.hero__text {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $grey;
+}
+
+.hero__contact,
+.contact-me {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    text-transform: uppercase;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid $green;
+    color: $white;
+    padding-bottom: 10px;
+}
