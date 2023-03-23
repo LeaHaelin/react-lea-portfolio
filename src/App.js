@@ -12,11 +12,11 @@ function App() {
       <Hero />
       <hr className="line first-line" />
       <Skills />
-      <hr className="line" />
+      <hr className="line middle-line" />
       <Projects />
       <section className="footer">
         <Contact />
-        <hr className="line" />
+        <hr className="line last-line" />
         <Nav />
       </section>
     </div>

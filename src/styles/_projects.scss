@@ -1,0 +1,96 @@
+.projects {
+    margin-top: 80px;
+    border: 1px solid red;
+}
+
+.projects__header {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects__title {
+    font-weight: 700;
+    font-size: 40px;
+    color: $white;
+}
+
+.projects__contact {
+    margin: 0;
+}
+
+.project-contents {
+    text-align: left;
+}
+
+.project {
+    margin-top: 40px;
+    min-width: 343px;
+}
+
+.project__thumbnail {
+    width: 100%;
+    min-height: 253px;
+    max-height: 350px;
+    margin-bottom: 20px;
+}
+
+.project__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: $white;
+    margin-bottom: 7px;
+}
+
+.project__skill {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    word-spacing: 18px;
+    color: $grey;
+    margin-bottom: 20px;
+}
+
+.project__urls {
+    height: 38px;
+}
+
+.project__url {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    border-bottom: 2px solid $green;
+    color: $white;
+    padding-bottom: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.project__url:hover {
+    cursor: pointer;
+    color: $green;
+}
+
+@media(min-width:768px) {
+    .projects {
+        margin-top: 48px;
+    }
+
+    .projects__title {
+        font-weight: 72px;
+    }
+
+    .project-contents {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        max-width: 342px;
+    }
+}

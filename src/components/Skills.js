@@ -21,7 +21,7 @@ export const Skills = () => {
             {skillsArr.map(skill => {
                 return (
                     <div className="skill">
-                        <h2 className="skill__name">{skill.title}</h2>
+                        <h2 className="skill__title">{skill.title}</h2>
                     </div>
                 )
             })}

@@ -17,6 +17,19 @@ body {
   text-align: center;
 }
 
+.line {
+  border: 1px solid #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .App {
+    min-width: 768px;
+    padding: 0px 30px;
+  }
+  .middle-line {
+    display: none;
+  }
+}
 @font-face {
   font-family: "Space Grotesk";
   src: url(../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
@@ -40,6 +53,20 @@ body {
   border: 1px solid palegoldenrod;
 }
 
+@media (min-width: 768px) {
+  .nav {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  .nav__logo {
+    font-size: 32px;
+    margin: 0;
+  }
+}
 .icons {
   width: 174px;
   border: 1px solid palegoldenrod;
@@ -50,6 +77,7 @@ body {
 .hero {
   border: 1px solid palegreen;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .hero__profile--bg {
@@ -105,4 +133,322 @@ body {
   border-bottom: 2px solid #4EE1A0;
   color: #FFFFFF;
   padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin-bottom: 0px;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    text-align: left;
+    position: relative;
+  }
+  .hero__profile--bg {
+    margin: 0;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    z-index: -1;
+    min-width: 322px;
+    height: 500px;
+    border: 1px solid paleturquoise;
+    background-color: #242424;
+  }
+  .hero__content {
+    margin-top: 90px;
+    border: 1px solid paleturquoise;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 445px;
+  }
+  .hero__intro {
+    font-size: 54px;
+    line-height: 72px;
+    letter-spacing: -2.05px;
+  }
+  .hero__intro--name {
+    text-underline-offset: 5px;
+  }
+  .hero__text {
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .hero__contact {
+    margin-top: 34px;
+  }
+}
+.skills {
+  margin: 40px 0;
+}
+
+.skill {
+  margin-bottom: 24px;
+}
+
+.skill__title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: -1px;
+}
+
+.skill__experience {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #D9D9D9;
+}
+
+@media (min-width: 768px) {
+  .skills {
+    margin: 52px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .skill {
+    width: 345px;
+    text-align: left;
+    margin-bottom: 52px;
+  }
+  .skill__title {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+    margin-bottom: 14px;
+  }
+  .skill__experience {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.projects {
+  margin-top: 80px;
+  border: 1px solid red;
+}
+
+.projects__header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.projects__contact {
+  margin: 0;
+}
+
+.project-contents {
+  text-align: left;
+}
+
+.project {
+  margin-top: 40px;
+  min-width: 343px;
+}
+
+.project__thumbnail {
+  width: 100%;
+  min-height: 253px;
+  max-height: 350px;
+  margin-bottom: 20px;
+}
+
+.project__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+.project__skill {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  word-spacing: 18px;
+  color: #D9D9D9;
+  margin-bottom: 20px;
+}
+
+.project__urls {
+  height: 38px;
+}
+
+.project__url {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  border-bottom: 2px solid #4EE1A0;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.project__url:hover {
+  cursor: pointer;
+  color: #4EE1A0;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    margin-top: 48px;
+  }
+  .projects__title {
+    font-weight: 72px;
+  }
+  .project-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .project {
+    max-width: 342px;
+  }
+}
+.footer {
+  border: 1px solid rgb(0, 255, 68);
+  margin: 100px 0 80px;
+}
+
+.contact {
+  margin: 40px 0 87px;
+  border: 1px solid red;
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.contact__text {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #D9D9D9;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  position: relative;
+}
+
+.contact__detail {
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 32px;
+  padding: 17px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.contact__detail::placeholder,
+textarea::placeholder {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Space Grotesk";
+}
+
+.name:focus,
+.email:focus,
+.message:focus {
+  border-bottom: 1px solid #4EE1A0;
+  background-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 40px #242424 inset;
+  -webkit-text-fill-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.email--error {
+  border-bottom: 1px solid #FF6F5B;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.email__validation--exclamation {
+  border: 1px solid #FF6F5B;
+  border-radius: 50px;
+  width: 24px;
+  height: 24px;
+  color: #FF6F5B;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.email__validation--error {
+  font-weight: 500;
+  font-size: 12px;
+  color: #FF6F5B;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 11px;
+}
+
+.contact__submit {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  width: fit-content;
+  border-bottom: 2px solid #4EE1A0;
+  padding-bottom: 10px;
+  margin-left: auto;
+}
+
+.last-line {
+  margin-bottom: 39px;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    margin: 100px 130px 92px;
+  }
+  .contact__title {
+    margin-top: 60px;
+    font-size: 72px;
+  }
+  .contact__text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .contact__form {
+    margin-top: 48px;
+  }
+  .last-line {
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=app.css.map */
