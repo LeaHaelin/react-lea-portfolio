@@ -5,8 +5,11 @@
 }
 
 .hero__profile--bg {
+    display: flex;
+    align-items: end;
     margin: 0 auto;
     width: 174px;
+    height: 100%;
     border: 1px solid paleturquoise;
     background-color: $darkGrey;
 }
@@ -63,7 +66,7 @@
     .hero {
         margin-bottom: 0px;
         width: 100%;
-        min-height: 600px;
+        min-height: 520px;
         display: flex;
         text-align: left;
         position: relative;
@@ -76,18 +79,18 @@
         right: 0;
         z-index: -1;
         min-width: 322px;
-        height: 500px;
+        height: 560px;
         border: 1px solid paleturquoise;
         background-color: $darkGrey;
     }
 
     .hero__content {
-        margin-top: 90px;
+        width: 445px;
+        margin-top: 100px;
         border: 1px solid paleturquoise;
         position: absolute;
         top: 0;
         left: 0;
-        width: 445px;
     }
 
     .hero__intro {

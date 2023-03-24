@@ -39,6 +39,14 @@ body {
     }
 }
 
+@media(min-width:1400px) {
+    .App {
+        min-width: 1440px;
+        padding: 40px 165px 92px 160px;
+    }
+
+}
+
 @font-face {
     font-family: "Space Grotesk";
     src: url(../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
@@ -49,4 +57,4 @@ body {
 @import "./hero";
 @import "./skills";
 @import "./projects";
-@import "./contact";
+@import "./footer";
