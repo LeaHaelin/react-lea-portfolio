@@ -20,9 +20,7 @@ export const Skills = () => {
         <div className='skills'>
             {skillsArr.map(skill => {
                 return (
-                    <div className="skill">
-                        <h2 className="skill__title">{skill.title}</h2>
-                    </div>
+                    <h2 className="skill__title">{skill.title}</h2>
                 )
             })}
         </div>

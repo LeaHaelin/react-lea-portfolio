@@ -2,22 +2,12 @@
     margin: 40px 0;
 }
 
-.skill {
-    margin-bottom: 24px;
-}
-
 .skill__title {
+    margin-bottom: 24px;
     font-weight: 700;
     font-size: 32px;
     color: $white;
     letter-spacing: -1px;
-}
-
-.skill__experience {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: $grey;
 }
 
 @media(min-width:768px) {
@@ -29,21 +19,24 @@
         flex-wrap: wrap;
     }
 
-    .skill {
+    .skill__title {
+        margin-bottom: 52px;
         width: 345px;
         text-align: left;
-        margin-bottom: 52px;
-    }
-
-    .skill__title {
         font-size: 48px;
         line-height: 56px;
         letter-spacing: -1.5px;
-        margin-bottom: 14px;
+    }
+}
+
+@media(min-width:1400px) {
+    .skills {
+        margin: 58px 0 0;
+        border: 1px solid red;
     }
 
-    .skill__experience {
-        font-size: 18px;
-        line-height: 28px;
+    .skill__title {
+        border: 1px solid red;
+        margin-bottom: 58px;
     }
 }

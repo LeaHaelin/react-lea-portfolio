@@ -4,3 +4,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.icon__link:hover,
+.nav__icon:hover {
+    cursor: pointer;
+    fill: $green;
+}

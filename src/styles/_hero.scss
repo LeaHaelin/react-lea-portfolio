@@ -11,7 +11,7 @@
     width: 174px;
     height: 100%;
     border: 1px solid paleturquoise;
-    background-color: $darkGrey;
+    background-color: #2424249c;
 }
 
 .hero__profile {
@@ -80,8 +80,6 @@
         z-index: -1;
         min-width: 322px;
         height: 560px;
-        border: 1px solid paleturquoise;
-        background-color: $darkGrey;
     }
 
     .hero__content {
@@ -111,5 +109,41 @@
 
     .hero__contact {
         margin-top: 34px;
+    }
+}
+
+
+@media(min-width:1400px) {
+    .hero {
+        min-height: 700px;
+    }
+
+    .hero__profile--bg {
+        position: absolute;
+        top: -100px;
+        right: 0;
+        z-index: -1;
+        min-width: 445px;
+        height: 720px;
+    }
+
+    .hero__content {
+        margin-top: 127px;
+        min-width: 706px;
+    }
+
+    .hero__intro {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .hero__text {
+        margin-top: 43px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .hero__contact {
+        margin-top: 66px;
     }
 }

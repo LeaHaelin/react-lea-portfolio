@@ -1,6 +1,5 @@
 .projects {
     margin-top: 80px;
-    border: 1px solid red;
 }
 
 .projects__header {
@@ -13,6 +12,7 @@
 .projects__title {
     font-weight: 700;
     font-size: 40px;
+    letter-spacing: -1.14px;
     color: $white;
 }
 
@@ -27,13 +27,15 @@
 .project {
     margin-top: 40px;
     min-width: 343px;
+    max-width: 600px;
 }
 
 .project__thumbnail {
     width: 100%;
     min-height: 253px;
-    max-height: 350px;
+    max-height: 430px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .project__title {
@@ -80,7 +82,8 @@
     }
 
     .projects__title {
-        font-weight: 72px;
+        font-size: 72px;
+        letter-spacing: -2.05px;
     }
 
     .project-contents {
@@ -101,7 +104,7 @@
     }
 
     .projects__title {
-        font-weight: 88px;
+        font-size: 88px;
     }
 
     .project-contents {
@@ -119,7 +122,9 @@
         min-height: 400px;
     }
 
+    //use background and opacity together, so the url text color looks clear when user hovers it.
     .project__urls {
+        border-radius: 5px;
         position: absolute;
         top: 0;
         left: 0;
@@ -130,16 +135,22 @@
         flex-direction: column;
         justify-content: center;
         align-content: space-between;
-        background-color: black;
+        background: rgba(0, 0, 0, 0);
         opacity: 0;
     }
 
     .project__urls:hover {
-        opacity: 0.75;
+        background: rgba(0, 0, 0, 0.750);
+        opacity: 1;
         cursor: pointer;
     }
 
     .project__url {
         margin: 24px auto 24px;
+    }
+
+    .project__url:hover {
+        opacity: 1;
+        cursor: pointer;
     }
 }
