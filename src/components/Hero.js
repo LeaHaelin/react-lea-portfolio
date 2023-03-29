@@ -3,7 +3,7 @@ import profile from "../assets/images/profile-lea.png";
 
 export const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id='home'>
             <div className="hero__profile--bg">
                 <img className="hero__profile" src={profile} alt="profile" />
             </div>

@@ -11,38 +11,38 @@ export const Projects = () => {
             image: projectNewHome,
             title: "NEW HOMPAGES",
             skill: ["REACT ", "CSS-GRID ", "SASS"],
-            projectUrl: "",
-            codeUrl: ""
+            projectUrl: "https://react-news-homepage.vercel.app/",
+            codeUrl: "https://github.com/LeaHaelin/frontend-mentor-news-hompage"
         }, {
             image: projectAdvice,
             title: "RANDOM ADVICE GENERATOR",
             skill: ["REACT ", "API"],
-            projectUrl: "",
-            codeUrl: ""
+            projectUrl: "https://advice-generator-1w8cu3jjv-leahaelin.vercel.app/",
+            codeUrl: "https://github.com/LeaHaelin/Advice_generator"
         }, {
             image: projectTimeTrack,
             title: "TIME TRACKING DASHBOARD",
             skill: ["REACT ", "CSS SASS ", "JSON"],
-            projectUrl: "",
-            codeUrl: ""
+            projectUrl: "https://lea-time-tracking-dashboard.vercel.app/",
+            codeUrl: "https://github.com/LeaHaelin/Time_tracking_dashboard"
         }, {
             image: projectTodo,
             title: "ENTERTAINMENT WEB APP",
             skill: ["REACT ", "CSS SASS"],
-            projectUrl: "",
-            codeUrl: ""
+            projectUrl: "https://lea-react-todo.vercel.app/",
+            codeUrl: "https://github.com/LeaHaelin/react-project__todo-list"
         }, {
             image: projectDrum,
             title: "DRUM MACHINE",
             skill: ["REACT ", "CSS SASS"],
-            projectUrl: "",
-            codeUrl: ""
+            projectUrl: "https://fcc-react-drum-machine-rho.vercel.app/",
+            codeUrl: "https://github.com/LeaHaelin/FCC-React-3-Drum-Machine"
         }, {
             image: projectMarkdwon,
             title: "MARKDOWN PREVIEWER",
             skill: ["REACT ", "CSS SASS"],
-            projectUrl: "",
-            codeUrl: ""
+            projectUrl: "https://fcc-react-markdown-previewer-phi.vercel.app/",
+            codeUrl: "https://github.com/LeaHaelin/FCC-React-2-Markdown-Previewer"
         },
     ]
     return (
@@ -59,8 +59,8 @@ export const Projects = () => {
                             <h3 className="project__title">{project.title}</h3>
                             <p className="project__skill">{project.skill} </p>
                             <div className="project__urls">
-                                <a className='project__url view-site' href="/">view portfolio</a>
-                                <a className='project__url view-code' href="/">view code</a>
+                                <a className='project__url view-site' href={project.projectUrl} target="_blank">view portfolio</a>
+                                <a className='project__url view-code' href={project.codeUrl} target="_blank">view code</a>
                             </div>
                         </div>
                     )

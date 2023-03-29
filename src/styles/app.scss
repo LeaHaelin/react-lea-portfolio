@@ -32,10 +32,23 @@ body {
     font-family: "Space Grotesk";
     min-width: 375px;
     text-align: center;
+    position: relative;
 }
 
 .line {
     border: 1px solid $white;
+}
+
+.scroll-up {
+    background-color: $green;
+    filter: brightness(130%);
+    border: none;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
 }
 
 @media(min-width:768px) {
