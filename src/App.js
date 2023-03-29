@@ -15,7 +15,7 @@ function App() {
       <Skills />
       <hr className="line middle-line" />
       <Projects />
-      <section className="footer">
+      <section className="footer" >
         <Contact />
         <hr className="line last-line" />
         <FooterNav />

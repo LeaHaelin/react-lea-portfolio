@@ -1,5 +1,4 @@
 .hero {
-    border: 1px solid palegreen;
     text-align: center;
     margin-bottom: 80px;
 }
@@ -10,17 +9,15 @@
     margin: 0 auto;
     width: 174px;
     height: 100%;
-    border: 1px solid paleturquoise;
     background-color: #2424249c;
 }
 
 .hero__profile {
     width: 100%;
-    filter: grayscale(1);
+    filter: grayscale(80%);
 }
 
 .hero__content {
-    border: 1px solid paleturquoise;
     margin-top: 40px;
 }
 
@@ -62,6 +59,11 @@
     padding-bottom: 10px;
 }
 
+.contact-me:hover {
+    cursor: pointer;
+    color: $green;
+}
+
 @media(min-width:768px) {
     .hero {
         margin-bottom: 0px;
@@ -85,7 +87,6 @@
     .hero__content {
         width: 445px;
         margin-top: 100px;
-        border: 1px solid paleturquoise;
         position: absolute;
         top: 0;
         left: 0;

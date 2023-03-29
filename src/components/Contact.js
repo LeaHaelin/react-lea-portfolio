@@ -26,7 +26,7 @@ export const Contact = () => {
     };
 
     return (
-        <div className='contact'>
+        <div className='contact' id="contact-area">
             <div className="contact__header">
                 <h2 className="contact__title">Contact</h2>
                 <p className="contact__text">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>

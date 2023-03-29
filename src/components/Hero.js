@@ -10,7 +10,7 @@ export const Hero = () => {
             <div className="hero__content">
                 <h1 className="hero__intro">Nice to meet you! I’m <span className="hero__intro--name">Lea Haelin Kim</span>.</h1>
                 <p className="hero__text">Based in Barcelona, Spain. I’m a front-end developer passionate about building accessible web apps that users love.</p>
-                <button className="hero__contact contact-me">contact me</button>
+                <a href="#contact-area"><button className="hero__contact contact-me">contact me</button></a>
             </div>
         </div >
     )

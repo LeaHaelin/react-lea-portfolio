@@ -49,7 +49,7 @@ export const Projects = () => {
         <div className="projects">
             <div className="projects__header">
                 <h2 className="projects__title">Projects</h2>
-                <button className="projects__contact contact-me">contact me</button>
+                <a href="#contact-area"><button className="projects__contact contact-me">contact me</button></a>
             </div>
             <div className="project-contents">
                 {projectsArr.map(project => {
