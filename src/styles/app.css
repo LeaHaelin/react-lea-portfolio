@@ -33,6 +33,11 @@ body {
   right: 20px;
 }
 
+.scroll-up:hover {
+  cursor: pointer;
+  background-color: #7be1b3;
+}
+
 @media (min-width: 768px) {
   body {
     background: no-repeat top 100px right 503px url("../assets/images/pattern-rings.svg"), no-repeat top 400px left 670px url("../assets/images/pattern-circle.svg"), no-repeat top 900px left 570px url("../assets/images/pattern-rings.svg"), no-repeat bottom 180px right 570px url("../assets/images/pattern-rings.svg"), linear-gradient(to top, #242424 0px, #242424 980px, #151515 980px, #151515 100%);
@@ -54,6 +59,11 @@ body {
     min-width: 1440px;
     max-width: 1500px;
     padding: 40px 165px 92px;
+  }
+}
+@media (min-width: 1500px) {
+  body {
+    background: no-repeat top 130px right 1120px url("../assets/images/pattern-rings.svg"), no-repeat top 520px left 1030px url("../assets/images/pattern-circle.svg"), no-repeat top 1000px left 1250px url("../assets/images/pattern-rings.svg"), no-repeat bottom 340px right 1060px url("../assets/images/pattern-rings.svg"), linear-gradient(to top, #242424 0px, #242424 900px, #151515 900px, #151515 100%);
   }
 }
 @font-face {

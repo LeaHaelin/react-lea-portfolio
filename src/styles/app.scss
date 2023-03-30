@@ -51,6 +51,11 @@ body {
     right: 20px;
 }
 
+.scroll-up:hover {
+    cursor: pointer;
+    background-color: #7be1b3;
+}
+
 @media(min-width:768px) {
     body {
         background:
@@ -94,6 +99,21 @@ body {
         min-width: 1440px;
         max-width: 1500px;
         padding: 40px 165px 92px;
+    }
+}
+
+@media(min-width:1500px) {
+    body {
+        background:
+            no-repeat top 130px right 1120px $patternRings,
+            no-repeat top 520px left 1030px $patternCircle,
+            no-repeat top 1000px left 1250px $patternRings,
+            no-repeat bottom 340px right 1060px $patternRings,
+            linear-gradient(to top,
+                $darkGrey 0px,
+                $darkGrey 900px,
+                $black 900px,
+                $black 100%);
     }
 }
 
