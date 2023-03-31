@@ -27,7 +27,7 @@ export const Projects = () => {
             codeUrl: "https://github.com/LeaHaelin/Time_tracking_dashboard"
         }, {
             image: projectTodo,
-            title: "ENTERTAINMENT WEB APP",
+            title: "TODO LIST",
             skill: ["REACT ", "CSS SASS"],
             projectUrl: "https://lea-react-todo.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/react-project__todo-list"
@@ -59,7 +59,7 @@ export const Projects = () => {
                             <h3 className="project__title">{project.title}</h3>
                             <p className="project__skill">{project.skill} </p>
                             <div className="project__urls">
-                                <a className='project__url view-site' href={project.projectUrl} target="_blank">view portfolio</a>
+                                <a className='project__url view-site' href={project.projectUrl} target="_blank">view project</a>
                                 <a className='project__url view-code' href={project.codeUrl} target="_blank">view code</a>
                             </div>
                         </div>
