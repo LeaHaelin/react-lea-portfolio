@@ -335,6 +335,7 @@ body {
   max-height: 430px;
   margin-bottom: 20px;
   border-radius: 5px;
+  box-shadow: 0px 0px 5px #D9D9D9;
 }
 
 .project__title {
@@ -431,6 +432,8 @@ body {
     background: rgba(0, 0, 0, 0.75);
     opacity: 1;
     cursor: pointer;
+    transition: 0.2s ease-in;
+    box-shadow: 0px 0px 10px #242424;
   }
   .project__url {
     margin: 24px auto 24px;
