@@ -59,8 +59,8 @@ export const Projects = () => {
                             <h3 className="project__title">{project.title}</h3>
                             <p className="project__skill">{project.skill} </p>
                             <div className="project__urls">
-                                <a className='project__url view-site' href={project.projectUrl} target="_blank">view project</a>
-                                <a className='project__url view-code' href={project.codeUrl} target="_blank">view code</a>
+                                <a className='project__url view-site' href={project.projectUrl} target="_blank" rel="noreferrer">view project</a>
+                                <a className='project__url view-code' href={project.codeUrl} target="_blank" rel="noreferrer">view code</a>
                             </div>
                         </div>
                     )

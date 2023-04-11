@@ -29,10 +29,12 @@
     color: $white;
 }
 
+
 .hero__intro--name {
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-color: $green;
+    letter-spacing: -1.14px;
 }
 
 .hero__text {
@@ -85,17 +87,19 @@
     }
 
     .hero__content {
-        width: 445px;
+        max-width: 600px;
         margin-top: 100px;
         position: absolute;
         top: 0;
         left: 0;
+        border: 1px solid rgb(158, 20, 4);
     }
 
     .hero__intro {
-        font-size: 54px;
+        font-size: 50px;
         line-height: 72px;
         letter-spacing: -2.05px;
+        border: 1px solid salmon;
     }
 
     .hero__intro--name {
@@ -103,13 +107,16 @@
     }
 
     .hero__text {
-        margin-top: 60px;
+        margin-top: 20px;
         font-size: 18px;
         line-height: 28px;
+        letter-spacing: 0.2px;
+        text-shadow: 1px 1px 2px rgba(120, 120, 120, 0.235), 0 0 1em rgba(248, 248, 250, 0.151), 0 0 0.2em rgba(3, 4, 7, 0.825);
+        max-width: 480px;
     }
 
     .hero__contact {
-        margin-top: 34px;
+        margin-top: 20px;
     }
 }
 
@@ -130,7 +137,7 @@
 
     .hero__content {
         margin-top: 127px;
-        min-width: 706px;
+        max-width: 900px;
     }
 
     .hero__intro {
