@@ -10,37 +10,37 @@ export const Projects = () => {
         {
             image: projectNewHome,
             title: "NEW HOMPAGES",
-            skill: ["REACT ", "CSS-GRID ", "SASS"],
+            skill: ["CSS-GRID"],
             projectUrl: "https://react-news-homepage.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/frontend-mentor-news-hompage"
         }, {
             image: projectAdvice,
             title: "RANDOM ADVICE GENERATOR",
-            skill: ["REACT ", "API"],
+            skill: ["API"],
             projectUrl: "https://advice-generator-1w8cu3jjv-leahaelin.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/Advice_generator"
         }, {
             image: projectTimeTrack,
             title: "TIME TRACKING DASHBOARD",
-            skill: ["REACT ", "CSS SASS ", "JSON"],
+            skill: ["JSON"],
             projectUrl: "https://lea-time-tracking-dashboard.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/Time_tracking_dashboard"
         }, {
             image: projectTodo,
             title: "TODO LIST",
-            skill: ["REACT ", "CSS SASS"],
+            skill: ["REACT"],
             projectUrl: "https://lea-react-todo.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/react-project__todo-list"
         }, {
             image: projectDrum,
             title: "DRUM MACHINE",
-            skill: ["REACT ", "CSS SASS"],
+            skill: ["REACT"],
             projectUrl: "https://fcc-react-drum-machine-rho.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/FCC-React-3-Drum-Machine"
         }, {
             image: projectMarkdwon,
             title: "MARKDOWN PREVIEWER",
-            skill: ["REACT ", "CSS SASS"],
+            skill: ["REACT"],
             projectUrl: "https://fcc-react-markdown-previewer-phi.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/FCC-React-2-Markdown-Previewer"
         },
