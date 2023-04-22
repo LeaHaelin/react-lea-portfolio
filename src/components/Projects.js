@@ -28,19 +28,19 @@ export const Projects = () => {
         }, {
             image: projectTodo,
             title: "TODO LIST",
-            skill: ["REACT"],
+            skill: ["REACT-HOOKS"],
             projectUrl: "https://lea-react-todo.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/react-project__todo-list"
         }, {
             image: projectDrum,
             title: "DRUM MACHINE",
-            skill: ["REACT"],
+            skill: ["REACT SOUND-CONNECTING"],
             projectUrl: "https://fcc-react-drum-machine-rho.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/FCC-React-3-Drum-Machine"
         }, {
             image: projectMarkdwon,
             title: "MARKDOWN PREVIEWER",
-            skill: ["REACT"],
+            skill: ["REACT MARKDOWN"],
             projectUrl: "https://fcc-react-markdown-previewer-phi.vercel.app/",
             codeUrl: "https://github.com/LeaHaelin/FCC-React-2-Markdown-Previewer"
         },
